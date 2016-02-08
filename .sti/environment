@@ -1,3 +1,4 @@
-HTTP_PROXY=http://10.193.244.21:80
-HTTPS_PROXY=http://10.193.244.21:80
-NO_PROXY=localhost.localdomain,localhost,127.0.0.1,10.193.244.21,.dhs.gov,aws-didit-test-ose3aster-01.uscis.dhs.gov,aws-didit-test-ose3node-01.uscis.dhs.gov,aws-didit-test-ose3node-02.usis.dhs.gov,10.1.1.4,172.30.193.67
+HTTP_PROXY=http://10.193.244.21:80/
+HTTPS_PROXY=http://10.193.244.21:80/
+NO_PROXY=10.193.244.21,gitlab.uscis.dhs.gov,git.uscis.dhs.gov,ose3-master.uscis.dhs.gov,172.30.193.67
+MAVEN_ARGS=package -Popenshift -DskipTests -Dcom.redhat.xpaas.repo.redhatga -ssettings.xml
