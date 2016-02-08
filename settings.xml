@@ -9,17 +9,15 @@
       <protocol>http</protocol>
       <host>10.193.244.21</host>
       <port>80</port>
-      <nonProxyHosts>master-ose3.uscis.gov|*.uscis.gov</nonProxyHosts>
+      <nonProxyHosts>10.193.244.21|ose3-master.uscis.dhs.gov|*.uscis.dhs.gov</nonProxyHosts>
     </proxy>
-  </proxies>
-  <proxies>
    <proxy>
       <id>proxyhttps</id>
       <active>true</active>
-      <protocol>https</protocol>
+      <protocol>http</protocol>
       <host>10.193.244.21</host>
       <port>80</port>
-      <nonProxyHosts>master-ose3.uscis.gov|*.uscis.gov</nonProxyHosts>
-    </proxy>
+      <nonProxyHosts>10.193.244.21|ose3-master.uscis.dhs.gov|*.uscis.dhs.gov</nonProxyHosts>
+    </proxy>    
   </proxies>
 </settings>
